@@ -1,3 +1,7 @@
+/*!
+ * Author: SuperFace
+ * Date: 2015-11-17
+ */
 function parseQueryUrl(url) {
     var url = url || window.location.href;
     //对非hash路由：为了防止误会：url所带参数中不要有：# , 因为location.hash是以#开始的。而且url中参数（？）和 hash（#）是有顺序的：先是 ？，后是 #
